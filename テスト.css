@@ -1,0 +1,207 @@
+body{
+  max-width: 1300px;
+}
+main{
+  line-height: 2.5rem;
+  margin: 0 auto 0;
+  width: 1000px;
+}
+p,span{
+  font-family: 'Shippori Mincho', serif;
+}
+.company_name,.promo_text>span{
+  font-family: 'Amatic SC', cursive;
+}
+
+/* page_top */
+
+.page_top{
+  background: url(img/fv.png) no-repeat right bottom/contain;
+  height: 480px;
+}
+.company_name{
+  text-align: right;
+  font-size: 40px;
+  color: #55bbbb;
+  height: 70px;
+}
+.ttl_text{
+  font-size: 40px;
+  margin: 0 0 16px 30px;
+}
+.ttl span{
+  font-size: 64px;
+  color: #55bbbb;
+}
+.ttl_text2{
+  font-size: 34px;
+}
+.cost_container{
+  margin-top: 30px;
+  display: flex;
+}
+.circle{
+  background-color: #FF4384;
+  color: white;
+  border-radius: 50%;
+}
+.now{
+  padding:35px 30px ;
+  font-size: 1.2rem;
+}
+.cost{
+ margin-left: 20px;
+}
+.cost_text{
+  color: #55bbbb;
+  margin-bottom: 20px;
+}
+.monthly_cost{
+  color: #FF4384;
+  font-size: 1.8em;
+}
+.monthly_cost span{
+  font-size: 2.2em;
+}
+.free_campaign__block{
+  display: flex;
+}
+.free_campaign__before{
+  width: 30px;
+  height: 60px;
+  background-color: #FF4384;
+  border-top-left-radius:100% ;
+  border-bottom-left-radius:100% ;
+  margin-top: 40px;
+  box-shadow: 0 0 8px #FF4384;
+}
+.free_campaign{
+  width: 23vw;
+  background-color: #FF4384;
+  color: white;
+  margin: 40px 0;
+  text-align: center;
+  box-shadow: 0 0 8px #FF4384;
+}
+.free_campaign__after{
+  width: 30px;
+  height: 60px;
+  background-color: #FF4384;
+  border-top-right-radius:100% ;
+  border-bottom-right-radius:100% ;
+  margin-top: 40px;
+  box-shadow: 0 0 8px #FF4384;
+}
+.free_campaign__text{
+  padding:10px 0;
+}
+
+/* page_med */
+
+.fukidasi{
+  background-color:#55bbbb;
+  text-align: center;
+  color: white;
+}
+.fukidasi_text{
+  font-size: 1.8rem;
+  padding: 50px 0;
+}
+.fukidasi_text span{
+  font-size: 2.2rem;
+}
+.fukidasi_deco{
+  width: 1px;
+  height: 1px;
+  margin: auto;
+  border-top: #55bbbb 40px solid;
+  border-left: transparent solid 50px;
+  border-bottom: transparent 30px solid;
+  border-right: transparent 50px solid;
+}
+.eye_catch{
+  height: 250px;
+  background: url(img/trouble-img.png) no-repeat 200px 0/contain;
+  position: relative;
+}
+.check_box{
+  position: absolute;
+  left: 500px;
+  padding: 15px 30px 30px;
+  border: #55bbbb 1px solid;
+  border-radius: 15%;
+  color: #55bbbb;
+  width: 21vw;
+  text-align: center;
+  position: relative;
+}
+.check_point{
+  border-bottom: #55bbbb 1px solid;
+  font-size: 1.2rem;
+  margin-top: 15px;
+}
+.check_point::before{
+  content: "";
+  background: url(img/check.svg) no-repeat;
+  height: 50px;
+  width: 50px;
+  margin-right: 15px;
+  display:block;
+  position: absolute;
+  margin-top: 9px;
+}
+.promo{
+  background-color:#55bbbb;
+}
+.promo_text__container{
+  padding: 50px;
+  color: white;
+  text-align: center;
+}
+.promo_text{
+  font-size: 1.2rem;
+}
+.promo_text span{
+  font-size: 2.2rem;
+}
+.promo_text span:last-child{
+  color: #FF4384;
+}
+p span{
+  font-family: 'Shippori Mincho', serif;
+}
+
+/* page-bottom */
+
+.point{
+  margin: 60px auto;
+}
+.point_container{
+  display: flex;
+  justify-content: space-around;
+}
+.point{
+  border: #55bbbb 1px solid;
+  padding: 30px 9px 15px;
+  width: 21vw;
+}
+.point_num{
+  color:#55bbbb;
+}
+.point_ttl{
+  font-size: 1.6rem;
+}
+.point_ttl span{
+  color: #FF4384;
+}
+.point_containt{
+  margin-top: 30px;
+}
+
+/* footer */
+
+footer{
+  margin-bottom: 50px;
+  text-align: center;
+  font-weight: lighter;
+}
